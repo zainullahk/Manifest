@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/xiaomi/tulip" name="AkhilmsAchu/android_device_xiaomi_tulip.git" remote="github" revision="wip" />
+ <project path="device/xiaomi/sdm660-common" name="AkhilmsAchu/android_device_xiaomi_sdm660-common.git" remote="github" revision="wip" />
+ <project path="vendor/xiaomi" name="AkhilmsAchu/vendor_xiaomi_tulip.git" remote="github" revision="pie" />
+ <project path="kernel/xiaomi/tulip" name="LineageOS/android_kernel_xiaomi_sdm660.git" remote="github" revision="lineage-18.1" />
+ 
+</manifest>
