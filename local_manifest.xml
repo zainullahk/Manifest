@@ -2,9 +2,9 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/xiaomi/tulip" name="sanjeevstunner/android_device_xiaomi_twolip.git" remote="github" revision="PE-11" />
- <project path="device/xiaomi/sdm660-common" name="sanjeevstunner/android_device_xiaomi_sdm660-common.git" remote="github" revision="PE-11" />
+ <project path="device/xiaomi/tulip" name="sanjeevstunner/device_xiaomi_tulip.git" remote="github" revision="PE-11" />
+ <project path="device/xiaomi/sdm660-common" name="sanjeevstunner/device_xiaomi_sdm660-common.git" remote="github" revision="PE-11" />
  <project path="vendor/xiaomi" name="sanjeevstunner/proprietary_vendor_xiaomi_twolip.git" remote="github" revision="main" />
- <project path="kernel/xiaomi/sdm660" name="sanjeevstunner/android_kernel_xiaomi_sdm660.git" remote="github" revision="lineage-18.1" />
+ <project path="kernel/xiaomi/sdm660" name="sanjeevstunner/kernel_xiaomi_sdm660.git" remote="github" revision="lineage-18.1" />
  
 </manifest>
