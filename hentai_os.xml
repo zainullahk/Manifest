@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
 	<remote name="clang" fetch="https://github.com/kdrag0n" />
 	<remote name="los" fetch="https://github.com/LineageOS" />
@@ -14,7 +15,6 @@
 
 	<!-- HALs -->
 	<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="los" revision="lineage-18.1" clone-depth="1" />
-	<project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="los" revision="lineage-18.1" clone-depth="1" />
-	<project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="los" revision="lineage-18.1" clone-depth="1" />
+	<project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" revision="lineage-18.1" clone-depth="1" />
 
 </manifest>
