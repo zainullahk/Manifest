@@ -4,7 +4,7 @@
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
 	<remote name="clang" fetch="https://github.com/kdrag0n" />
-	<remote name="arrowOS" fetch="https://github.com/LineageOS" />
+	<remote name="arrowOS" fetch="https://github.com/ArrowOS" />
 	
 
 	<!-- Trees -->
