@@ -22,7 +22,7 @@
 	
 	
 	<!-- HALs -->
-	<project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.0-caf-sm8150" clone-depth="1" />
+	<project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.0-caf-sm8150" clone-depth="1" />
 	
 	
 </manifest>
