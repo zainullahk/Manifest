@@ -13,7 +13,7 @@
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="ss" revision="main" clone-depth="1"/>
 	<project path="vendor/xiaomi/sm8150-common" name="vendor_xiaomi_sm8150-common" remote="ss" revision="main" clone-depth="1"/>
 	
-	<project path="kernel/xiaomi/vayu" name="DerpFest-Devices/kernel_xiaomi_vayu" remote="github" revision="staging" clone-depth="1"/>
+	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" remote="ArrowOS-Devices" revision="arrow-12.0" clone-depth="1"/>
 	
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ArrowOS-Devices" revision="arrow-12.0" clone-depth="1" />
 		
