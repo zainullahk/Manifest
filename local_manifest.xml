@@ -4,6 +4,7 @@
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
 	<remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices" />
+	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
 	
 	
 	<!-- Trees -->
@@ -17,4 +18,6 @@
 	
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ArrowOS-Devices" revision="arrow-12.0" clone-depth="1" />
 
+	<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0" clone-depth="1" />
+	
 </manifest>
