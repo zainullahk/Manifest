@@ -7,7 +7,7 @@
 	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
 	
         <!-- Trash -->
-        <remove-project name="PixelExperience/packages_resources_devicesettings" />
+        <remove-project name="packages_resources_devicesettings" />
 	
 	
 	<!-- Trees -->
