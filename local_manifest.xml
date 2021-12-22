@@ -9,6 +9,9 @@
 	
 	<!-- Trash -->
 	<remove-project name="packages_resources_devicesettings" />
+	<remove-project name="hardware_qcom_display" />
+	<remove-project name="hardware_qcom_media" />
+	<remove-project name="hardware_qcom_audio" />
 	
 	<!-- Replacements -->
 	<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0" clone-depth="1" />
@@ -22,4 +25,11 @@
 	
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ArrowOS-Devices" revision="arrow-12.0" clone-depth="1" />
 	
+	<!-- Hals -->
+	<project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.0-caf-sm8150" clone-depth="1"/>
+
+	<project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.0-caf-sm8150" clone-depth="1"/>
+	
+	<project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.0-caf-sm8150" clone-depth="1"/>
+
 </manifest>
