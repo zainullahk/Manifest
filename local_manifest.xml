@@ -9,9 +9,6 @@
 	
 	<!-- Trash -->
 	<remove-project name="packages_resources_devicesettings" />
-	<remove-project name="android_hardware_qcom_display" />
-	<remove-project name="android_hardware_qcom_display" />
-	<remove-project name="android_hardware_qcom_audio" />
 	
 	<!-- Replacements -->
 	<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0" clone-depth="1" />
