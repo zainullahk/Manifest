@@ -3,8 +3,7 @@
 
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
-	<remote name="ArrowOS" fetch="https://github.com/ArrowOS" />
-	<remote name="AwakenOS" fetch="https://github.com/Project-Awaken" />
+	<remote name="ArrowOS" fetch="https://github.com/ArrowOS/" />
 	<remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices" />
 	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
 	
@@ -19,7 +18,7 @@
 	
 	<project path="kernel/xiaomi/sm8150" name="litten_kernel_sm8150" remote="ss" revision="12" clone-depth="1"/>
 	
-	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="AwakenOS" revision="12" clone-depth="1"/>
+	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="ArrowOS-Devices" revision="arrow-12.0" clone-depth="1"/>
 	
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ArrowOS-Devices" revision="arrow-12.0" clone-depth="1" />
 
