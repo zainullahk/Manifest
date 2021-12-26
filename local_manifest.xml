@@ -8,10 +8,10 @@
 	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
 	
 	<!-- Trash -->
-<!-- 	<remove-project name="frameworks_base" /> -->
+	<remove-project name="frameworks_base" />
 	
 	<!-- Replacements -->
-<!-- 	<project path="frameworks/base" name="pe_frameworks_base" remote="ss" revision="twelve" clone-depth="1" /> -->
+	<project path="frameworks/base" name="pe_frameworks_base" remote="ss" revision="twelve" clone-depth="1" />
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="aosp_12" clone-depth="1"/>
