@@ -14,7 +14,7 @@
 <!-- 	<project path="platform/frameworks/base" name="pe_frameworks_base" remote="ss" revision="twelve" clone-depth="1" /> -->
 
 	<!-- Trees -->
-	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="aosp_12" clone-depth="1"/>
+	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="staging_sepolicy" clone-depth="1"/>
 	
 	<project path="kernel/xiaomi/sm8150" name="litten_kernel_sm8150" remote="ss" revision="12" clone-depth="1"/>
 	
