@@ -3,15 +3,17 @@
 
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
+	<remote name="raghav" fetch="https://github.com/raghavt20" />
+	
 	<remote name="ArrowOS" fetch="https://github.com/ArrowOS/" />
 	<remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices" />
 	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
 	
 	<!-- Trash -->
-	<remove-project name="device_custom_sepolicy" />
+<!-- 	<remove-project name="device_custom_sepolicy" /> -->
 	
 	<!-- Replacements -->
-	<project path="device/custom/sepolicy" name="pe_device_custom_sepolicy" remote="ss" revision="twelve" clone-depth="1" />
+<!-- 	<project path="device/custom/sepolicy" name="pe_device_custom_sepolicy" remote="ss" revision="twelve" clone-depth="1" /> -->
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="aosp_12" clone-depth="1"/>
