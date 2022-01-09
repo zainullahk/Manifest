@@ -21,6 +21,6 @@
 	
 	<project path="kernel/xiaomi/sm8150" name="litten_kernel_sm8150" remote="ss" revision="12" clone-depth="1"/>
 	
-	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="raghav-org" revision="12" clone-depth="1"/>
+	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="ss" revision="12" clone-depth="1"/>
 	
 </manifest>
