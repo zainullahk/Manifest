@@ -11,10 +11,10 @@
 	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
 	
 	<!-- Trash -->
-<!-- 	<remove-project name="device_custom_sepolicy" /> -->
-	
+	<remove-project name="device_qcom_sepolicy_vndr" />
+
 	<!-- Replacements -->
-<!-- 	<project path="device/custom/sepolicy" name="pe_device_custom_sepolicy" remote="ss" revision="twelve" clone-depth="1" /> -->
+	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ss" revision="twelve" />
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="aosp_12" clone-depth="1"/>
