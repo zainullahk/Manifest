@@ -3,12 +3,6 @@
 
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
-	<remote name="raghav" fetch="https://github.com/raghavt20" />
-	<remote name="raghav-org" fetch="https://github.com/poco-x3p" />
-	
-	<remote name="ArrowOS" fetch="https://github.com/ArrowOS/" />
-	<remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices" />
-	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
 	
 	<!-- Trash -->
 	<remove-project name="device_qcom_sepolicy_vndr" />
