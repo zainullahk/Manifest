@@ -13,6 +13,8 @@
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="12" clone-depth="1"/>
 	
+	<project path="device/xiaomi/vayu/parts" name="android_xiaomi_parts" remote="ss" revision="12" clone-depth="1"/>
+	
 	<project path="kernel/xiaomi/sm8150" name="kernel_xiaomi_sm8150" remote="ss" revision="12" clone-depth="1"/>
 	
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="ss" revision="12" clone-depth="1"/>
