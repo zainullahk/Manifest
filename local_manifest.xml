@@ -11,7 +11,7 @@
 	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ss" revision="twelve" />
 
 	<!-- Trees -->
-	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="12" clone-depth="1"/>
+	<project path="device/xiaomi/vayu" name="arrow_1_device_xiaomi_vayu" remote="ss" revision="12" clone-depth="1"/>
 	
 	<project path="kernel/xiaomi/sm8150" name="kernel_xiaomi_sm8150" remote="ss" revision="12" clone-depth="1"/>
 	
