@@ -3,12 +3,15 @@
 
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
+	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
 	
 	<!-- Trash -->
 	<remove-project name="device_qcom_sepolicy_vndr" />
+	<remove-project name="PixelExperience/packages_resources_devicesettings" />
 
 	<!-- Replacements -->
 	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ss" revision="twelve" />
+	<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0" clone-depth="1" />
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="12" clone-depth="1"/>
