@@ -10,6 +10,7 @@
 	<!-- Trash -->
 	<remove-project name="device_qcom_sepolicy_vndr" />
 	<remove-project name="packages_resources_devicesettings" />
+	<remove-project name="OTA" />
 
 	<!-- Replacements -->
 	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ss" revision="twelve" />
