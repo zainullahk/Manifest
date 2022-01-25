@@ -3,22 +3,22 @@
 
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
-	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
+	<!-- 	<remote name="LineageOS" fetch="https://github.com/LineageOS" /> -->
+	
 	
 	<!-- Trash -->
 	<remove-project name="device_qcom_sepolicy_vndr" />
-	<remove-project name="packages_resources_devicesettings" />
+	<!-- 	<remove-project name="packages_resources_devicesettings" /> -->
 
 	<!-- Replacements -->
 	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ss" revision="twelve" />
-	<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0" clone-depth="1" />
+	<!-- 	<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0" clone-depth="1" /> -->
+	
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="12" clone-depth="1"/>
 	
-	<project path="device/xiaomi/vayu/parts" name="device_xiaomi_parts" remote="ss" revision="12" clone-depth="1"/>
-	
-	<project path="kernel/xiaomi/sm8150" name="kernel_xiaomi_sm8150" remote="ss" revision="12" clone-depth="1"/>
+	<project path="kernel/xiaomi/sm8150" name="kernel_xiaomi_sm8150" remote="ss" revision="stable" clone-depth="1"/>
 	
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="ss" revision="12" clone-depth="1"/>
 	
