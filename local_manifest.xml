@@ -8,7 +8,7 @@
 	<remove-project name="vendor_aosp" />
 
 	<!-- Replacements -->
-	<project path="device/qcom/sepolicy_vndr" name="elixir_vendor_aosp" remote="ss" revision="snow" />
+	<project path="vendor/aosp" name="elixir_vendor_aosp" remote="ss" revision="snow" />
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="elixir" clone-depth="1"/>	
