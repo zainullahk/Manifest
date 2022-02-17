@@ -5,10 +5,10 @@
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />	
 	
 	<!-- Trash -->
-	<!-- <remove-project name="device_qcom_sepolicy_vndr" /> -->
+	<remove-project name="vendor_aosp" />
 
 	<!-- Replacements -->
-	<!-- <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ss" revision="twelve" /> -->
+	<project path="device/qcom/sepolicy_vndr" name="elixir_vendor_aosp" remote="ss" revision="snow" />
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="elixir" clone-depth="1"/>	
