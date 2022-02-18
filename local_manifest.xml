@@ -3,11 +3,16 @@
 
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />	
+	<remote name="pixel" fetch="https://github.com/PixelExperience" />	
 
 	<!-- Trash -->
 	<remove-project name="vendor_qcom_opensource_commonsys_display" />
 	<remove-project name="vendor_qcom_opensource_commonsys-intf_display" />
-
+	
+	<!-- Replacements -->
+	<project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" remote="pixel" revision="twelve" clone-depth="1"/>
+	<project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="pixel" revision="twelve" clone-depth="1"/>
+	
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="elixir" clone-depth="1"/>	
 	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" remote="ss" revision="12" clone-depth="1"/>
