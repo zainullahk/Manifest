@@ -3,12 +3,6 @@
 
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />	
-	
-	<!-- Trash -->
-	<remove-project name="vendor_aosp" />
-
-	<!-- Replacements -->
-	<project path="vendor/aosp" name="elixir_vendor_aosp" remote="ss" revision="snow" />
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="elixir" clone-depth="1"/>	
