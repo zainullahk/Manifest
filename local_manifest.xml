@@ -3,9 +3,13 @@
 
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
+	<remote name="pe" fetch="https://github.com/PixelExperience" />
   
-  <!-- Replacements -->
-	<project path="vendor/qcom/opensource/display" name="PixelExperience/vendor_qcom_opensource_display.git" remote="github" revision="twelve" />
+	<!-- Remove -->
+	<remove-project name="vendor_qcom_opensource_commonsys_display" />
+	
+  	<!-- Replacements -->
+	<project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="pe" revision="twelve" />
   
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="elixir" clone-depth="1"/>	
