@@ -9,7 +9,8 @@
 	<remove-project name="vendor_qcom_opensource_commonsys_display" />
 	
 	<!-- Replacements -->
-	<project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="PE" revision="twelve" clone-depth="1"/>
+<!-- 	<project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="PE" revision="twelve" clone-depth="1"/> -->
+	<project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" remote="PE" revision="twelve" clone-depth="1"/>
 	
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="elixir" clone-depth="1"/>	
