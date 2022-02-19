@@ -5,9 +5,6 @@
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />	
 	<remote name="PE" fetch="https://github.com/PixelExperience" />	
 
-	<!-- Replacements -->
-	<project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="PE" revision="twelve" clone-depth="1"/>
-	
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="elixir" clone-depth="1"/>	
 	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" remote="ss" revision="12" clone-depth="1"/>
