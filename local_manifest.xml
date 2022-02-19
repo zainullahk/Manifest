@@ -2,10 +2,11 @@
 <manifest>
 
 	<!-- Remotes -->
-	<remote name="ss" fetch="https://github.com/sanjeevstunner" />	
+	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
+        <remote name="ss" fetch="https://github.com/PixelExperience" />	
 	
 	<!-- Replacements -->
-        <project path="vendor/qcom/opensource/display" name="PixelExperience/vendor_qcom_opensource_display.git" remote="github" revision="twelve" /> 
+        <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display.git" remote="github" revision="twelve" /> 
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="elixir" clone-depth="1"/>	
