@@ -4,10 +4,7 @@
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
 	<remote name="pe" fetch="https://github.com/PixelExperience" />
-  
-	<!-- Remove -->
-	<remove-project name="vendor_qcom_opensource_commonsys_display" />
-	
+
   	<!-- Replacements -->
 	<project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="pe" revision="twelve" />
   
