@@ -9,6 +9,5 @@
 	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" remote="ss" revision="12" clone-depth="1"/>
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="ss" revision="12" clone-depth="1"/>
 	<project path="vendor/google/camera" name="vendor_google_camera" remote="ss" revision="open_camera" />
-
 	
 </manifest>
