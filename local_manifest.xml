@@ -4,6 +4,12 @@
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />	
 	
+	<!-- Remove Stuff -->
+	<remove-project name="device_qcom_sepolicy_vndr" />
+
+	<!-- Replace Stuff -->
+	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" revision="twelve" remote="ss" clone-depth="1"/>
+	
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12" remote="ss" clone-depth="1"/>	
 	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="12" remote="ss" clone-depth="1"/>
