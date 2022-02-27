@@ -8,7 +8,7 @@
 	<remove-project name="device_qcom_sepolicy_vndr" />
 
 	<!-- Replacements -->
-	<project path="device/qcom/sepolicy_vndr" name="pe_device_qcom_sepolicy_vndr" revision="twelve" remote="ss" clone-depth="1"/>
+	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" revision="twelve" remote="ss" clone-depth="1"/>
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="tmp1" remote="ss" clone-depth="1"/>	
