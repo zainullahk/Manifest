@@ -2,7 +2,7 @@
 <manifest>
 
 	<!-- Remotes -->
-	<remote name="ss" fetch="https://github.com/sanjeevstunner" />	
+	<remote name="ss" fetch="https://github.com/Zainullahk" />	
 	
 	<!-- Trash -->
 	<remove-project name="device_qcom_sepolicy_vndr" />
