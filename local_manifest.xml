@@ -4,6 +4,7 @@
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
 	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
+	<remote name="CrDroid-GitLab" fetch="https://gitlab.com/crdroidandroid" />
 	
 	<!-- Trash -->
 	<remove-project name="device_qcom_sepolicy_vndr" />
@@ -18,5 +19,6 @@
 	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="12" remote="ss" clone-depth="1"/>
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12" remote="ss" clone-depth="1"/>
 	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" remote="ss" revision="12" />
+	<project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="CrDroid-GitLab" revision="12.0" />
 
 </manifest>
