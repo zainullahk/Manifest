@@ -4,6 +4,7 @@
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/Zainullahk" />	
 	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
+	<remote name="CrDroid-GitLab" fetch="https://gitlab.com/crdroidandroid" />
 	
 	<!-- Trash -->
 	<remove-project name="device_qcom_sepolicy_vndr" />
