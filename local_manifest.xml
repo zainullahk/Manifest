@@ -14,9 +14,9 @@
 	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" revision="twelve" remote="ss" />
 
         <!-- Trees -->
-	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12_st" remote="ss" />
+	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12_wip" remote="ss" />
 	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
-	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="wip" remote="ss" />
+	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12_wip" remote="ss" />
 	
 	<!-- Addons -->
         <project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" />
