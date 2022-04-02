@@ -2,25 +2,17 @@
 <manifest>
 
 	<!-- Remotes -->
-	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
-	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner" />
-        <remote name="raghav" fetch="https://github.com/raghavt20" />
-        <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
+	<remote name="ss" fetch="https://github.com/sanjeevstunner" />	
 	
-	<!-- Remove -->
+	<!-- Trash -->
 	<remove-project name="device_qcom_sepolicy_vndr" />
-	
-	<!-- Replacements -->
-	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" revision="twelve" remote="ss" />
 
-        <!-- Trees -->
-	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12_wip" remote="ss" />
-	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
-	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12_wip" remote="ss" />
-	
-	<!-- Addons -->
-        <project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" />
-<!-- 	<project path="device/xiaomi/vayu/pocket" name="battery_friendly_pocketmode" revision="master" remote="ss" />
-	<project path="vendor/miuicamera" name="android_vendor_miuicamera" revision="12.0" remote="sg" /> -->
+	<!-- Replacements -->
+	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" revision="twelve" remote="ss" clone-depth="1"/>
+
+	<!-- Trees -->
+	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12" remote="ss" clone-depth="1"/>	
+	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="12" remote="ss" clone-depth="1"/>
+	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12" remote="ss" clone-depth="1"/>
 	
 </manifest>
